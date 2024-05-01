@@ -1,7 +1,7 @@
 const fs = require('fs');
 const crypto = require('crypto');
 
-const inputDirectory = '/var/www/apogee';
+const inputDirectory = '/var/www/apogee/s2';
 
 encryptDirectory(inputDirectory)
   .then(() => {
